@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="js/community/lib/leaflet/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="/>
+<link rel="stylesheet" href="css/map.css"/>
+<!-- JS comes after Leaflet's CSS -->
+<script src="js/community/lib/leaflet/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="></script>
+<script src="js/community.js"></script>
+<script src="js/community/stringfmt.js"></script>
+<script src="js/community/ajax.js"></script>
+<script src="js/community/map.js"></script>
+
+<!-- the authors section shows the authors writing for of the website. -->
+<section class="authors" title="Authors writing on Latin Americans in Cryptography magazine">
+
+  <!-- this section includes the main, most important content of this section. -->
+  <div class="main-content">
+    <p>The larger Latin American community</p>
+    <div id="content">
+        <div style="margin: 10px;">
+          <div id="people-map"></div>
+        </div>
+        <div style="margin: 10px; font-family: sans-serif;">
+          <p>
+            This is an example for generating a map of contacts from a #bio-style description.
+            The map was generated automatically from <a href="res/people.js">this file</a>.
+          </p>
+          <p>
+            Blue markers are current work positions, green markers are places of origin. Hover over the marker to see the bio.
+          </p>
+          <p>
+            The tiles are taken from Mapbox, the geolocation data from OpenStreetMap. 
+            It is also possible to use OpenStreetMap tiles, in case Mapbox has bad T&amp;Cs.<br>
+            See the map with: <a href="index.html">Mapbox tiles</a> or <a href="index.html?osm">OpenStreetMap tiles</a>.
+          </p>
+        </div>
+        </div>
+    </script>
+  </div>
+</section>

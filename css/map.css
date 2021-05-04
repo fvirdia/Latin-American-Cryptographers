@@ -1,0 +1,11 @@
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#people-map {
+    height: 480px;
+    width: 640px;
+}

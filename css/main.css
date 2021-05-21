@@ -1105,7 +1105,7 @@ section.full-articles {
   border-bottom: 3px solid var(--dark-black);
   padding: 0.5rem;
   margin: 2rem;
-  width: 25%;
+  width: 15rem;
 
   background-color: var(--opaque-off-light-gray);
 }
@@ -1123,6 +1123,10 @@ section.full-articles {
     width: 40%;
     margin: 1rem;
   }
+}
+
+.article-full-element > a {
+  text-align: center;
 }
 
 /* styling of the 'article-full-image' class which renders the image for each article */
